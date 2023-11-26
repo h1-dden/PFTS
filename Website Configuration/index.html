@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maharashtra Police</title>
+    <link rel="stylesheet" href="style.css" />
+
+
+  </head>
+
+  
+  <body>
+    <div class="logo-container">
+      <img src="img2.png" alt="Logo" class="logo">
+    </div>
+    
+    <div class="container">
+      <h2>Maharashtra Police</h2>
+      <hr />
+      <br />
+      <div class="form">
+        Name: <input type="text" name="name" id="name" /> <br /><br />
+        Vehicle Id:&nbsp; <input type="text" name="vehicleid" id="vehicle" /> <br /><br />
+        Latitude: <input type="text" name="latitude" id="latitude" /> <br /><br />
+        Longitude: <input type="text" name="longitude" id="longitude" /> <br /><br />
+        Rfid: <input type="text" name="rfid" id="rfid" /> <br /><br />
+      </div>
+
+      <div class="buttons">
+        <button id="insert">Insert</button>
+        <button id="read">Read</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+        <button> <a href="logs.html">Logs</a></button>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script src="./fireConfig.js"></script>
+
+    <script src="./myscript.js"></script>
+  </body>
+</html>

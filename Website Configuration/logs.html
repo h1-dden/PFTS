@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timestamp Logs</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="logs.css" />
+</head>
+<body>
+  <h2>Timestamp Logs</h2>
+  <hr />
+  <br />
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Vehicle ID</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>RFID</th>
+        <th>Timestamp</th>
+      </tr>
+    </thead>
+    <tbody id="timestamp-logs">
+    </tbody>
+  </table>
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+  <script src="./fireConfig.js"></script>
+  <script src="./logs.js"></script>
+</body>
+</html>
